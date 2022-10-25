@@ -1,0 +1,8 @@
+.gallery-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: #f7f7f7;
+  border-radius: 25px;
+  justify-content: space-around;
+}

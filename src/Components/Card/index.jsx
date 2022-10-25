@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 function Card({cover,title}) {
     return(
         <div className="card">
-            <img src={cover} alt='apartment' height={340} width={340} />
-            <span>{title}</span>
+            <img src={cover} alt={title} height="340" className='card-image' />
+            <span className='card-title'>{title}</span>
         </div>
     )
 }
