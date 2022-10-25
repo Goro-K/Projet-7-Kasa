@@ -10,6 +10,7 @@ function Gallery() {
             {Logement.map(location => (
                 <Card 
                     key={location.id}
+                    id={location.id}
                     cover={location.cover}
                     title={location.title}
                 />
