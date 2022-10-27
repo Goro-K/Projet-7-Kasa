@@ -6,3 +6,10 @@
   border-radius: 25px;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 576px) {
+  .gallery-card {
+    background-color: #fff;
+    display: block;
+  }
+}

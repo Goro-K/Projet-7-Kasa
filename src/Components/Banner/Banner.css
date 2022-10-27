@@ -11,6 +11,8 @@
   background-blend-mode: darken;
   display: flex;
   justify-content: center;
+  object-fit: contain;
+  margin-top: 30px;
 }
 
 .banner-span {
@@ -22,7 +24,8 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 780px) {
+/* Medium */
+@media screen and (max-width: 768px) {
   .banner-span {
     font-size: 36px;
   }
@@ -33,5 +36,7 @@
 @media screen and (max-width: 576px) {
   .banner-span {
     font-size: 24px;
+    margin-left: 20px;
+    line-height: 100%;
   }
 }

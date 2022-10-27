@@ -23,3 +23,10 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+/* Small */
+@media screen and (max-width: 576px) {
+  .footer-right {
+    font-size: 12px;
+  }
+}

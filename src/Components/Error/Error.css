@@ -14,12 +14,15 @@
   font-size: 288px;
   line-height: 142.6%;
   margin: 0;
+  text-align: center;
 }
 
 .error-message {
   font-weight: 500;
   font-size: 36px;
   line-height: 142.6%;
+  margin-left: 10%;
+  text-align: center;
 }
 
 .error-link {
@@ -29,4 +32,25 @@
   height: 200px;
   display: flex;
   align-items: flex-end;
+  text-align: center;
+}
+
+/* Medium */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .error-title {
+    font-size: 200px;
+  }
+  .error-message {
+    font-size: 34px;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 576px) {
+  .error-title {
+    font-size: 140px;
+  }
+  .error-message {
+    font-size: 28px;
+  }
 }
