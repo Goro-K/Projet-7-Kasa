@@ -22,6 +22,13 @@
   color: #ff6060;
 }
 
+.active {
+  text-decoration: underline;
+}
+.inactive {
+  text-decoration: unset;
+}
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .nav-home {
     width: 200px;
