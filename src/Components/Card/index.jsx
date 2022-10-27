@@ -5,7 +5,7 @@ import { Link} from 'react-router-dom'
 function Card({cover,title,id}) {
     return(
         <div className="card">
-            <Link to={id}>
+            <Link to={`/Lodging/${id}`}>
                 <img src={cover} alt={title} className='card-image' />
                 <span className='card-title'>{title}</span>
             </Link>
@@ -15,7 +15,8 @@ function Card({cover,title,id}) {
 
 Card.propTypes = {  //Props de type string => requis
     title: PropTypes.string.isRequired,
-    cover: PropTypes.string.isRequired
+    cover: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired
 }
 
 
