@@ -8,19 +8,23 @@ import Error from './Components/Error'
 import Footer from './Components/Footer'
 import './container.css'
 import Lodging from './Pages/Lodgings/lodging'
+import Banner from './Components/Banner/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <div className='container'>
+        <div className='container-2'>
         <Header />
+        <Banner />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/:id" element={<Lodging />} />
+          <Route path="/Home" element={<Home />}/>
+          <Route path="/Lodging/:id" element={<Lodging />} />
           <Route path="/About%20Us" element={<AboutUs />}/>
           <Route path="*" element={<Error />}/>
         </Routes>
+        </div>
       </div>
       <Footer />
     </BrowserRouter>
