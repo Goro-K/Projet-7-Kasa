@@ -1,9 +1,37 @@
+.banner-accueil {
+  background: #f7f7f7;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.banner-img {
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.3) url('../../Image/banner-img.png');
+  padding: 5% 0;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+}
+
 .banner-span {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 142.6%;
-
   color: #ffffff;
+}
+
+@media screen and (max-width: 780px) {
+  .banner-span {
+    font-size: 36px;
+  }
+}
+
+/* Small */
+
+@media screen and (max-width: 576px) {
+  .banner-span {
+    font-size: 24px;
+  }
 }
