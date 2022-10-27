@@ -8,7 +8,6 @@ import Error from './Components/Error'
 import Footer from './Components/Footer'
 import './container.css'
 import Lodging from './Pages/Lodgings/lodging'
-import Banner from './Components/Banner/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +16,6 @@ root.render(
       <div className='container'>
         <div className='container-2'>
         <Header />
-        <Banner />
         <Routes>
           <Route path="/Home" element={<Home />}/>
           <Route path="/Lodging/:id" element={<Lodging />} />
@@ -30,3 +28,5 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 )
+
+// si ca match avec "Home" ou "Lodging" ? return Route * :

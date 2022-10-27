@@ -1,7 +1,11 @@
+import Banner from '../../Components/Banner/index'
+import Collapse from '../../Components/Collapse/index'
+
 function aboutUs() {
     return (
         <div>
-            <h1>A Propos</h1>
+            <Banner />
+            <Collapse />
         </div>
     )
 }
