@@ -1,25 +1,30 @@
-import Info from '../../info.json'
 import Vector from '../../Image/Vector.png'
 import './Collapse.css'
-import {useState, useEffect} from 'react'
+import PropTypes from 'prop-types'
+import { useState } from 'react'
 
+function Collapse({title, detail}) {
 
-function Collapse() {
-    const [dropDown, dropActive] = useState(false)
-    useEffect(() => {
-        
-    })
+    const [isActive, setIsActive] = useState(false);
 
     return(
         <div className='collapse-container'>
-            {Info.map(info => (
             <div className="collapse">
-                <h4 className="collapse-title">{info.title}</h4>
-                <img src={Vector} className={'collapse-vector-inactive collapse-vector-active'} alt="" />
-            </div>)
-        )}
+                <div className='collapse-head' onClick={() => setIsActive(!isActive)}>
+                    <h4 className="collapse-title">{title}</h4>
+                    {isActive ? <img src={Vector} className= {'collapse-vector-active'} alt="" /> 
+                    : <img src={Vector} className= {'collapse-vector-inactive '}/>
+                    }
+                </div>
+                {isActive && <div className='collapse-content'>{detail}</div>}
+            </div>
         </div>
     )
+}
+
+Collapse.propTypes = {
+    title: PropTypes.string.isRequired,
+    detail: PropTypes.string.isRequired
 }
 
 export default Collapse

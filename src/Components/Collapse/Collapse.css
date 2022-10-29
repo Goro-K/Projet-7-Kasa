@@ -1,13 +1,23 @@
 .collapse {
-  background: #ff6060;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
   width: 80%;
   margin: 20px 0;
 }
 
+.collapse-head {
+  background: #ff6060;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .collapse-vector-inactive {
+  width: 24px;
+  object-fit: contain;
+  margin-right: 20px;
+  transform: rotate(180deg);
+}
+
+.collapse-vector-active {
   width: 24px;
   object-fit: contain;
   margin-right: 20px;
@@ -19,14 +29,34 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 142.6%;
-  /* or 34px */
 
   color: #ffffff;
-  margin: 10px 0;
+  margin: 10px 0 10px 10px;
 }
 
 .collapse-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.collapse-content {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142.6%;
+  background: #f7f7f7;
+  border-radius: 5px;
+  color: #ff6060;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .collapse-content {
+    font-size: 18px;
+  }
+  .collapse-title {
+    font-size: 22px;
+  }
 }
