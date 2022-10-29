@@ -1,18 +1,28 @@
-.banner-accueil {
+.banner {
   background: #f7f7f7;
   border-radius: 25px;
   margin-bottom: 30px;
 }
 
-.banner-img {
+.banner-img-home {
   border-radius: 25px;
-  background: rgba(0, 0, 0, 0.3) url('../../Image/banner-img.png');
+  background: rgba(0, 0, 0, 0.3) url('../../Image/banner-img-home.png');
   padding: 5% 0;
   background-blend-mode: darken;
   display: flex;
   justify-content: center;
   object-fit: contain;
   margin-top: 30px;
+}
+
+.banner-img-aboutus {
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.3) url('../../Image/banner-img-aboutus.png');
+  padding: 5% 0;
+  background-blend-mode: darken;
+  object-fit: contain;
+  margin-top: 30px;
+  height: 95px;
 }
 
 .banner-span {
