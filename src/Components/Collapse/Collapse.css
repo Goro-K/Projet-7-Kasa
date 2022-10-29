@@ -59,4 +59,7 @@
   .collapse-title {
     font-size: 22px;
   }
+  .collapse {
+    width: 100%;
+  }
 }
