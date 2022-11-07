@@ -20,7 +20,7 @@ root.render(
           <Route path="/Home" element={<Home />}/>
           <Route path="/Lodging/:id" element={<Lodging />} />
           <Route path="/About%20Us" element={<AboutUs />}/>
-          <Route path="*" element={<Error />}/>
+          <Route path="/Error" element={<Error />}/>
         </Routes>
         </div>
       </div>
@@ -28,5 +28,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 )
-
-// si ca match avec "Home" ou "Lodging" ? return Route * :
