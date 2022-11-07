@@ -9,6 +9,9 @@
   font-weight: 500;
   line-height: 142.6%;
 }
+.slide-img {
+  border-radius: 25px;
+}
 
 .lodging-title {
   font-weight: 500;
@@ -54,6 +57,7 @@
 
 .slideshow {
   position: relative;
+  margin-top: 20px;
 }
 
 .slide-number {
@@ -82,6 +86,7 @@
   padding: 0;
   margin: 5px 0;
   width: 400px;
+  flex-wrap: wrap;
 }
 
 .lodging-tag-li {
@@ -92,6 +97,7 @@
   background-color: #ff6060;
   height: 25px;
   margin-right: 10px;
+  margin-bottom: 2px;
 }
 
 .lodging-tag-flex {
@@ -121,6 +127,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .right-button,
+  .left-button {
+    width: 35px;
+  }
+
   .lodging-2 {
     flex-direction: row-reverse;
   }
@@ -140,7 +151,7 @@
   }
 
   .lodging-title {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .lodging-location {
