@@ -1,5 +1,4 @@
 import './Card.css'
-import PropTypes from 'prop-types'
 import { Link} from 'react-router-dom'
 
 function Card({cover,title,id}) {
@@ -11,12 +10,6 @@ function Card({cover,title,id}) {
                 </Link>
             </div>
     )
-}
-
-Card.propTypes = {  //Props de type string => requis
-    title: PropTypes.string.isRequired,
-    cover: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired
 }
 
 
