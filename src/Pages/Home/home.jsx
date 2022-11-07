@@ -7,14 +7,14 @@ function Home() {
         <div>
             <Banner />
             <div className='gallery-card'>
-            {Lodgings.map(lodging => (
-                <Card 
-                    key={lodging.id}
-                    id={lodging.id}
-                    cover={lodging.cover}
-                    title={lodging.title}
-                />)
-            )}
+                {Lodgings.map(lodging => (
+                    <Card 
+                        key={lodging.id}
+                        id={lodging.id}
+                        cover={lodging.cover}
+                        title={lodging.title}
+                    />)
+                )}
             </div>
         </div>
 
