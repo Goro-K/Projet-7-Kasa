@@ -2,7 +2,7 @@ import './Slideshow.css'
 function Slideshow(picture) {
     return (
         <div className='slide'>
-            <img src={picture.picture} alt="accomodation" className="slide-img"/>
+            <img src={picture.picture} alt="" className="slide-img"/>
         </div>
     )
 }
