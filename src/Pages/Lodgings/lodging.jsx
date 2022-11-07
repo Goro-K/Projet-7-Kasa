@@ -18,7 +18,6 @@ function Lodging() {
 
     let [count, setCount] = useState(0)
     const rating = ["1", "2", "3", "4", "5"]
-    const r = 0
 
     return (
         <div>
@@ -53,11 +52,11 @@ function Lodging() {
                                         <img src={lodging.host.picture} className='profile-picture' alt={`${lodging.host.name} - profile pic`}/>
                                     </div>
                                     <ul className='lodging-star'>
-                                        {rating.map((star) => (
+                                        {rating.map((star, index) => (
                                             star <= lodging.rating ?
-                                            <li><img src={Star} className="star"/></li> : 
+                                            <li><img src={Star} className="star" key={`star-${index}`}/></li> : 
                                             star - lodging.rating ? 
-                                            <li><img src={StarG}  className="star" /></li> : null
+                                            <li><img src={StarG}  className="star" key={`star-${index}`} /></li> : null
                                         ))}
                                     </ul>
                                 </div>
