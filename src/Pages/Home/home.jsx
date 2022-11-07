@@ -1,6 +1,6 @@
-import Banner from '../../Components/Banner/index'
+import Banner from '../../components/banner/index'
 import Lodgings from '../../logements.json'
-import Card from '../../Components/Card/index'
+import Card from '../../components/card/index'
 import './Home.css'
 function Home() {
     return (

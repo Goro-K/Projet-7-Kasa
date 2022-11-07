@@ -1,12 +1,12 @@
 import {useParams} from 'react-router-dom'
 import Lodgings from '../../logements.json'
-import Error from '../Error/index'
-import Slideshow from '../../Components/Slideshow/index'
-import Collapse from '../../Components/Collapse'
+import Error from '../error/index'
+import Slideshow from '../../components/slideshow/index'
+import Collapse from '../../components/collapse'
 import './Lodging.css'
-import Vector from '../../Image/Vector.png'
-import Star from '../../Image/Vector-star.png'
-import StarG from '../../Image/vector-star-grey.png'
+import Vector from '../../image/Vector.png'
+import Star from '../../image/Vector-star.png'
+import StarG from '../../image/vector-star-grey.png'
 import { useState } from 'react'
 
 function Lodging() {

@@ -1,5 +1,5 @@
-import Banner from '../../Components/Banner/index'
-import Collapse from '../../Components/Collapse/index'
+import Banner from '../../components/banner/index'
+import Collapse from '../../components/collapse/index'
 import Infos from '../../info.json'
 import './AboutUs.css'
 function aboutUs() {

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home/home'
-import AboutUs from './Pages/About Us/aboutUs'
-import Header from './Components/Header'
-import Error from './Pages/Error'
-import Footer from './Components/Footer'
+import Home from './pages/home/home'
+import AboutUs from './pages/aboutus/aboutUs'
+import Header from './components/header'
+import Error from './pages/error'
+import Footer from './components/footer'
 import './container.css'
-import Lodging from './Pages/Lodgings/lodging'
+import Lodging from './pages/lodgings/lodging'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

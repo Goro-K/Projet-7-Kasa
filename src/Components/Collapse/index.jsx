@@ -1,4 +1,4 @@
-import Vector from '../../Image/Vector.png'
+import Vector from '../../image/Vector.png'
 import './Collapse.css'
 import { useState } from 'react'
 
