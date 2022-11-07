@@ -4,6 +4,10 @@
   margin-bottom: 30px;
 }
 
+.span-aboutus {
+  display: none;
+}
+
 .banner-img-home {
   border-radius: 25px;
   background: rgba(0, 0, 0, 0.3) url('../../Image/banner-img-home.png');
