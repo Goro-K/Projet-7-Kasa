@@ -2,7 +2,7 @@ import Banner from '../../components/banner/index'
 import Collapse from '../../components/collapse/index'
 import Infos from '../../info.json'
 import './AboutUs.css'
-function aboutUs() {
+function AboutUs() {
     return (
         <div>
             <Banner 
@@ -23,4 +23,4 @@ function aboutUs() {
     )
 }
 
-export default aboutUs
+export default AboutUs
