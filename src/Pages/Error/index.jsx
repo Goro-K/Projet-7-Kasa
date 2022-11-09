@@ -9,7 +9,7 @@ function Error() {
                 <p>Oups ! La page que vous demandez n'existe pas.</p>
             </div>
             <div className="error-link">
-                <Link to="/" className="nav-link">Retournez sur la page d'accueil</Link>
+                <Link to="/home" className="nav-link">Retournez sur la page d'accueil</Link>
             </div>
         </div>
     )

@@ -5,8 +5,8 @@ function Banner({classAboutUs, classSpanAboutUs}) {
     const { pathname } = useLocation()
     return(
         <section className="banner">
-            <div className={pathname === "/Home" ? "banner-img-home" : classAboutUs }>
-                <span className={pathname === "/Home" ? "banner-span" : classSpanAboutUs }>Chez vous, partout et ailleurs</span>
+            <div className={pathname === "/home" ? "banner-img-home" : classAboutUs }>
+                <span className={pathname === "/home" ? "banner-span" : classSpanAboutUs }>Chez vous, partout et ailleurs</span>
             </div>
 
         </section>

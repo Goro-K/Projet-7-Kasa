@@ -71,7 +71,7 @@ function Lodging() {
                             </div>
                         </div>
                     </div>
-            : <Navigate replace to="/Error" />}   
+            : <Navigate replace to="/error" />}   
         </div> 
     )    
 }
