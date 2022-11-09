@@ -10,9 +10,7 @@ function Collapse({title, detail, objectDetail, classLodging}) {
             <div className={`${classLodging} collapse`}>
                 <div className='collapse-head' onClick={() => setIsActive(!isActive)} >
                     <h4 className="collapse-title ">{title}</h4>
-                    {isActive ? <img src={Vector} className= {'collapse-vector-active'} alt="" /> 
-                    : <img src={Vector} className= {'collapse-vector-inactive '} alt=""/>
-                    }
+                    <img src={Vector} className= {isActive ? "collapse-vector-active" : "collapse-vector-inactive"} alt="" />
                 </div>
                 {isActive && <div className='collapse-content'>{detail} {objectDetail} </div>}
             </div>
