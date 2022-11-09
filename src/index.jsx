@@ -17,10 +17,10 @@ root.render(
         <div className='container-2'>
         <Header />
         <Routes>
-          <Route path="/Home" element={<Home />}/>
-          <Route path="/Lodging/:id" element={<Lodging />} />
-          <Route path="/About%20Us" element={<AboutUs />}/>
-          <Route path="/Error" element={<Error />}/>
+          <Route path="/home" element={<Home />}/>
+          <Route path="/lodging/:id" element={<Lodging />} />
+          <Route path="/aboutus" element={<AboutUs />}/>
+          <Route path="/error" element={<Error />}/>
         </Routes>
         </div>
       </div>
