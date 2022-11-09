@@ -9,9 +9,6 @@
   font-weight: 500;
   line-height: 142.6%;
 }
-.slide-img {
-  border-radius: 25px;
-}
 
 .lodging-title {
   font-weight: 500;
@@ -36,39 +33,6 @@
   justify-content: flex-end;
   align-items: center;
   line-height: 25.67px;
-}
-
-.right-button,
-.left-button {
-  width: 50px;
-  position: absolute;
-  z-index: 1;
-  bottom: 45%;
-}
-
-.right-button {
-  transform: rotate(90deg);
-  right: 0px;
-}
-
-.left-button {
-  transform: rotate(270deg);
-}
-
-.slideshow {
-  position: relative;
-  margin-top: 20px;
-}
-
-.slide-number {
-  position: absolute;
-  bottom: 5%;
-  right: 50%;
-
-  font-family: 'Montserrat';
-  font-size: 18px;
-  line-height: 142.6%;
-  color: #fff;
 }
 
 .profil-name {
@@ -127,11 +91,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .right-button,
-  .left-button {
-    width: 35px;
-  }
-
   .lodging-2 {
     flex-direction: row-reverse;
   }
