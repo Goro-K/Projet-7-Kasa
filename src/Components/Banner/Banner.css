@@ -50,7 +50,13 @@
 @media screen and (max-width: 576px) {
   .banner-span {
     font-size: 24px;
-    margin-left: 20px;
     line-height: 100%;
+    width: 50%;
+  }
+
+  .banner-img-home {
+    border-radius: 10px;
+    display: block;
+    padding-left: 5%;
   }
 }

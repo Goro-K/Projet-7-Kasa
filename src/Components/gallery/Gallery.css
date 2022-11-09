@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 560px) {
   .slideshow {
     height: 255px;
   }

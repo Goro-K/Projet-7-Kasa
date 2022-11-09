@@ -57,7 +57,7 @@
   color: #fff;
   font-size: 14px;
   border-radius: 10px;
-  padding: 0 20px;
+  padding: 0 10px;
   background-color: #ff6060;
   height: 25px;
   margin-right: 10px;
@@ -105,8 +105,12 @@
   }
 
   .star {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .lodging-star {
+    margin-top: 0;
   }
 
   .lodging-title {
@@ -118,6 +122,6 @@
   }
 
   .lodging-tag-li {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
