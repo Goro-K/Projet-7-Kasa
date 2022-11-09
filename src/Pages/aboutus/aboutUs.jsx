@@ -9,7 +9,7 @@ function aboutUs() {
             classAboutUs="banner-img-aboutus"
             classSpanAboutUs="span-aboutus"
             />
-            <div className='collapse-container'>
+            <div className="collapse-container">
                 {Infos.map(info => (
                     <Collapse
                     key = {info.title} 

@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
             <Banner />
-            <div className='gallery-card'>
+            <div className="gallery-card">
                 {Lodgings.map(lodging => (
                     <Card 
                         key={lodging.id}

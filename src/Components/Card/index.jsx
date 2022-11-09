@@ -5,8 +5,8 @@ function Card({cover,title,id}) {
     return(
             <div className="card">
                 <Link to={`/Lodging/${id}`}>
-                    <img src={cover} alt={title} className='card-image' />
-                    <span className='card-title'>{title}</span>
+                    <img src={cover} alt={title} className="card-image" />
+                    <span className="card-title">{title}</span>
                 </Link>
             </div>
     )

@@ -8,15 +8,13 @@ function Collapse({title, detail, objectDetail, classLodging}) {
 
     return(
             <div className={`${classLodging} collapse`}>
-                <div className='collapse-head' onClick={() => setIsActive(!isActive)} >
-                    <h4 className="collapse-title ">{title}</h4>
+                <div className="collapse-head" onClick={() => setIsActive(!isActive)} >
+                    <h4 className="collapse-title">{title}</h4>
                     <img src={Vector} className= {isActive ? "collapse-vector-active" : "collapse-vector-inactive"} alt="" />
                 </div>
-                {isActive && <div className='collapse-content'>{detail} {objectDetail} </div>}
+                {isActive && <div className="collapse-content">{detail} {objectDetail} </div>}
             </div>
     )
 }
 
 export default Collapse
-
-// 'collapse-vector-inactive collapse-vector-active'
