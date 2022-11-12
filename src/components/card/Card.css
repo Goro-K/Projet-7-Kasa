@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  width: 30%;
+  width: 100%;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
@@ -34,10 +34,6 @@
 /* Large */
 
 @media screen and (max-width: 1233px) {
-  .card {
-    width: 45%;
-  }
-
   .card-title {
     font-size: 22px;
   }

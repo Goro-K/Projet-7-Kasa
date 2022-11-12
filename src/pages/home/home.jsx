@@ -6,16 +6,17 @@ function Home() {
     return (
         <div>
             <Banner />
-            <div className="gallery-card">
+            <ul className="gallery-card">
                 {Lodgings.map(lodging => (
-                    <Card 
-                        key={lodging.id}
-                        id={lodging.id}
-                        cover={lodging.cover}
-                        title={lodging.title}
-                    />)
+                    <li className = "lodging-list" key = {lodging.id}>
+                        <Card 
+                            id={lodging.id}
+                            cover={lodging.cover}
+                            title={lodging.title}
+                        />
+                    </li>)
                 )}
-            </div>
+            </ul>
         </div>
 
     )

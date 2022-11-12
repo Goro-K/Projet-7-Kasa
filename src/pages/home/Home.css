@@ -5,11 +5,27 @@
   background: #f7f7f7;
   border-radius: 25px;
   justify-content: space-around;
+  padding: 0;
+}
+
+.lodging-list {
+  list-style-type: none;
+  width: 30%;
+}
+
+@media screen and (max-width: 1233px) {
+  .lodging-list {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .gallery-card {
     background-color: #fff;
     display: block;
+  }
+
+  .lodging-list {
+    width: 100%;
   }
 }

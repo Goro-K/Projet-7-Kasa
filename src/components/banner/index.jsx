@@ -8,7 +8,6 @@ function Banner({classAboutUs, classSpanAboutUs}) {
             <div className={pathname === "/home" ? "banner-img-home" : classAboutUs }>
                 <span className={pathname === "/home" ? "banner-span" : classSpanAboutUs }>Chez vous, partout et ailleurs</span>
             </div>
-
         </section>
     )
 }
