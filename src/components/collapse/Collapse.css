@@ -1,12 +1,10 @@
 .collapse {
-  width: 90%;
+  width: 100%;
   margin: 20px 0;
 }
-
 .collapse-width {
   width: 45%;
 }
-
 .collapse-head {
   background: #ff6060;
   border-radius: 5px;
@@ -58,7 +56,7 @@
   .collapse-title {
     font-size: 22px;
   }
-  .collapse {
+  .collapse-width {
     width: 100%;
   }
 }

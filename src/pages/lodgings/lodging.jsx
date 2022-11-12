@@ -18,7 +18,7 @@ function Lodging() {
         <div>
             { lodging ?
                     <div>
-                        <Gallery pictures={lodging.pictures} key= {lodging.pictures} /> 
+                        <Gallery pictures={lodging.pictures} /> 
                         <div className="lodging-body">
                             <div className="lodging-head-flex"> 
                                 <div className="lodging-1">
@@ -52,13 +52,11 @@ function Lodging() {
                             </div>
                             <div className="collapse-flex"> 
                                 <Collapse
-                                key="Description"
                                 title="Description"
                                 detail={lodging.description}
                                 classLodging="collapse-width"
                                 />
                                 <Collapse
-                                key="Equipements"
                                 title="Equipements"
                                 detail=
                                     {<ul>

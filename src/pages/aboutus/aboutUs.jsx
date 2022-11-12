@@ -9,16 +9,17 @@ function AboutUs() {
             classAboutUs="banner-img-aboutus"
             classSpanAboutUs="span-aboutus"
             />
-            <div className="collapse-container">
+            <ul className="collapse-container">
                 {Infos.map(info => (
-                    <Collapse
-                    key = {info.title} 
-                    title = {info.title}
-                    detail = {info.detail}
-                    />
+                    <li className="collapse-li" key = {info.title}>
+                        <Collapse 
+                        title = {info.title}
+                        detail = {info.detail}
+                        />
+                    </li>
                 ))
                 }
-            </div>
+            </ul>
         </div>
     )
 }
