@@ -1,0 +1,127 @@
+.collapse-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lodging-body {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+}
+
+.lodging-title {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.profile-picture {
+  border-radius: 30px;
+  width: 64px;
+}
+
+.lodging-head-flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #ff6060;
+  margin-top: 20px;
+}
+
+.info-profil {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 25.67px;
+}
+
+.profil-name {
+  width: 100px;
+}
+
+.lodging-location {
+  color: #ff6060;
+  font-size: 18px;
+}
+
+.lodging-tag {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 5px 0;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.lodging-tag-li {
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: #ff6060;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.lodging-tag-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lodging-star {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.lodging-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .collapse-flex {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lodging-2 {
+    flex-direction: row-reverse;
+  }
+
+  .lodging-head-flex {
+    display: block;
+  }
+
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+  }
+
+  .star {
+    width: 26px;
+    height: 26px;
+  }
+
+  .lodging-star {
+    margin-top: 0;
+  }
+
+  .lodging-title {
+    font-size: 24px;
+  }
+
+  .lodging-location {
+    font-size: 20px;
+  }
+
+  .lodging-tag-li {
+    font-size: 12px;
+  }
+}
