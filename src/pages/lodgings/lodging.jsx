@@ -59,9 +59,9 @@ function Lodging() {
                                 <Collapse
                                 title="Equipements"
                                 detail=
-                                    {<ul>
+                                    {<ul className="equipment">
                                     {lodging.equipments.map((equipment,index) => (
-                                            <li key={`Equipment-${index}`}>{equipment}</li>
+                                            <li className ="equipment-list " key={`Equipment-${index}`}>{equipment}</li>
                                     ))}
                                     </ul>}
                                 classLodging="collapse-width"

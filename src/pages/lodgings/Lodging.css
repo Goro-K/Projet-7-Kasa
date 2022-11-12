@@ -83,6 +83,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.equipment {
+  padding-left: 20px;
+}
+
+.equipment-list {
+  list-style-type: none;
+}
 
 @media screen and (max-width: 768px) {
   .collapse-flex {
