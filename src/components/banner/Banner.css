@@ -57,6 +57,6 @@
   .banner-img-home {
     border-radius: 10px;
     display: block;
-    padding-left: 5%;
+    text-align: center;
   }
 }
