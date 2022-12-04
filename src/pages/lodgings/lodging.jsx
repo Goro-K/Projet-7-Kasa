@@ -35,7 +35,6 @@ function Lodging() {
                                         <p className="profil-name">{lodging.host.name}</p>
                                         <img src={lodging.host.picture} className="profile-picture" 
                                              alt={`${lodging.host.name} - profile pic`} 
-                                             key={`${lodging.host.name} - profile pic`}
                                         />
                                     </div>
                                     <ul className="lodging-star">
