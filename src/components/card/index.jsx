@@ -1,7 +1,7 @@
 import './Card.css'
 import { Link } from 'react-router-dom'
 
-function Card({cover,title,id, key}) {
+function Card({cover,title,id}) {
     return(
             <div className="card">
                 <Link to={`/lodging/${id}`}>
