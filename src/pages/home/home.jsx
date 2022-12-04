@@ -4,7 +4,7 @@ import Card from '../../components/card/index'
 import './Home.css'
 function Home() {
     return (
-        <div>
+        <div className="home">
             <Banner />
             <ul className="gallery-card">
                 {Lodgings.map(lodging => (
